@@ -543,7 +543,7 @@ Specifies the property names that `Sort-Object` uses to sort the objects. Wildca
 Objects are sorted based on the property values. If you do not specify a property, `Sort-Object`
 sorts based on default properties for the object type or the objects themselves.
 
-Add simple example for sorting multiple properties. Multiple properties can be sorted in ascending order, descending order, or a combination of sort
+Use commas to separate multiple properties. Multiple properties can be sorted in ascending order, descending order, or a combination of sort
 orders. When you specify multiple properties, the objects are sorted by the first property. If
 multiple objects have the same value for the first property, those objects are sorted by the second
 property. This process continues until there are no more specified properties or no groups of
